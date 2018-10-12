@@ -1,6 +1,11 @@
 import pyaudio
 import wave
 
+'''
+DISCLAIMER
+this was created by https://gist.github.com/sloria/5693955
+I do not take credit for this class
+'''
 class Recorder(object):
     '''A recorder class for recording audio to a WAV file.
     Records in mono by default.
